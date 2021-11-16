@@ -1,0 +1,79 @@
+h1{
+ font-family: 'Arvo', serif;
+}
+
+body{
+    background-image:
+url(https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2019/01/fundo-3d-cinza7-1024x576.png?resize=696%2C392&ssl=1);
+   background-attachment: fixed;
+   background-size:cobver;
+   background-position: center center;
+    }
+:root {
+    --cor1: #E9AFA3;
+    --cor2: #3A405A;
+    --cor3: #CFD8DC;
+}
+
+
+
+.container {
+    height: 500px;
+    width: 360px;
+    margin: 70px auto;
+    background: var(--cor3);
+    box-shadow: -5px 0px 10px var(--cor3);
+    border-radius: 10px;
+}
+
+.title {
+    background: var(--cor2);
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    letter-spacing: .7px;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    max-width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--cor1); 
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--cor2);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
